@@ -12,7 +12,7 @@
 </script>
 
 <style lang="scss" scoped>
-  ::selection{
+  ::selection {
     background: #fff;
     color: #000;
   }
@@ -25,6 +25,11 @@
 
     h1 {
       letter-spacing: 3px;
+      font-size: 1.6rem;
+
+      @media screen and (min-width: 450px) {
+        font-size: 2rem;
+      }
     }
   }
 </style>
